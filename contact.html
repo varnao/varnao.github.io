@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Valeria Arnao's Website</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -30,9 +31,14 @@
         />
         <br /><br />
         <label for="message">Message</label>
-        <textarea> </textarea>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message here"
+          required
+        ></textarea>
         <br /><br />
-        <label for="submit">Submit</label>
+        <label for="submit"></label>
         <input
           type="submit"
           id="sumbit"
